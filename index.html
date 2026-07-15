@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samar Khalid - AI Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #e2e8f0;
+            background: #0f172a;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Hero */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #f8fafc;
+        }
+
+        .hero-content h2 {
+            font-size: 1.25rem;
+            font-weight: 400;
+            color: #94a3b8;
+            margin-bottom: 24px;
+        }
+
+        .hero-content p {
+            font-size: 1.1rem;
+            color: #cbd5e1;
+            max-width: 600px;
+            margin-bottom: 32px;
+        }
+
+        .links {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .links a {
+            color: #60a5fa;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sections */
+        section {
+            padding: 80px 0;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        section h2 {
+            font-size: 1.75rem;
+            margin-bottom: 40px;
+            color: #f8fafc;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 40px;
+            padding: 24px;
+            background: #1e293b;
+            border-radius: 8px;
+        }
+
+        .project h3 {
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+            color: #f8fafc;
+        }
+
+        .project p {
+            color: #94a3b8;
+            margin-bottom: 16px;
+        }
+
+        .tech {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+
+        .tech span {
+            background: #334155;
+            color: #cbd5e1;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 0.8rem;
+        }
+
+        .project a {
+            color: #60a5fa;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+        }
+
+        .skill-group h3 {
+            font-size: 1rem;
+            margin-bottom: 16px;
+            color: #f8fafc;
+        }
+
+        .skill-group ul {
+            list-style: none;
+        }
+
+        .skill-group li {
+            color: #94a3b8;
+            padding: 4px 0;
+            font-size: 0.95rem;
+        }
+
+        /* Experience */
+        .job {
+            margin-bottom: 32px;
+            padding-left: 20px;
+            border-left: 2px solid #334155;
+        }
+
+        .job h3 {
+            font-size: 1.1rem;
+            color: #f8fafc;
+            margin-bottom: 4px;
+        }
+
+        .job .company {
+            color: #60a5fa;
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+        }
+
+        .job p {
+            color: #94a3b8;
+            font-size: 0.95rem;
+        }
+
+        /* Contact */
+        .contact-links {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .contact-links a {
+            color: #60a5fa;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            color: #475569;
+            font-size: 0.85rem;
+        }
+
+        /* Mobile */
+        @media (max-width: 640px) {
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            section {
+                padding: 60px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Hero -->
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Samar Khalid</h1>
+            <h2>AI Engineer | Python Developer</h2>
+            <p>
+                Building AI-powered solutions for manufacturing and enterprise systems.
+                Currently pursuing M.Sc. in Computer Science at Menoufia University.
+            </p>
+            <div class="links">
+                <a href="https://github.com/Samar-Khalid">GitHub</a>
+                <a href="https://www.linkedin.com/in/smar-5alid">LinkedIn</a>
+                <a href="mailto:samar00khaled0@gmail.com">Email</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <section>
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Prism Analytics</h3>
+            <p>AI-powered manufacturing analytics platform with NL2SQL, anomaly detection, and intelligent reporting.</p>
+            <div class="tech">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>PostgreSQL</span>
+                <span>OpenAI</span>
+                <span>Docker</span>
+            </div>
+            <a href="https://github.com/Samar-Khalid/Prism-Analytics">View on GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>Data Ingestion Tool</h3>
+            <p>Smart Excel/CSV to SQLite converter with intelligent merging, type detection, and business context recognition.</p>
+            <div class="tech">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>SQLite</span>
+                <span>CustomTkinter</span>
+            </div>
+            <a href="https://github.com/Samar-Khalid/Data-Ingestion-Tool">View on GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>Codex Enterprise</h3>
+            <p>Modular framework for building AI-powered enterprise applications.</p>
+            <div class="tech">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>PostgreSQL</span>
+                <span>Redis</span>
+            </div>
+            <a href="https://github.com/Samar-Khalid/Codex-Enterprise">View on GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>Odoo Custom Modules</h3>
+            <p>Custom Odoo ERP modules with AI integration for manufacturing operations.</p>
+            <div class="tech">
+                <span>Python</span>
+                <span>Odoo 17</span>
+                <span>PostgreSQL</span>
+            </div>
+            <a href="https://github.com/Samar-Khalid/Odoo-Custom-Modules">View on GitHub</a>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-group">
+                <h3>Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>AI & ML</h3>
+                <ul>
+                    <li>TensorFlow</li>
+                    <li>PyTorch</li>
+                    <li>Scikit-learn</li>
+                    <li>OpenCV</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Tools</h3>
+                <ul>
+                    <li>Docker</li>
+                    <li>Git</li>
+                    <li>PostgreSQL</li>
+                    <li>Linux</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>ERP</h3>
+                <ul>
+                    <li>Odoo</li>
+                    <li>Power BI</li>
+                    <li>Data Analytics</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section>
+        <h2>Experience</h2>
+
+        <div class="job">
+            <h3>AI Engineer</h3>
+            <div class="company">N.Fert</div>
+            <p>Building AI-powered solutions, automation workflows, and ERP development.</p>
+        </div>
+
+        <div class="job">
+            <h3>Teaching Assistant</h3>
+            <div class="company">AlRyada University</div>
+            <p>Programming courses, lab sessions, student mentoring in AI/ML.</p>
+        </div>
+
+        <div class="job">
+            <h3>C++ Developer (Part-time)</h3>
+            <div class="company">Pirlent</div>
+            <p>Windows/Web applications, OOP development.</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section>
+        <h2>Contact</h2>
+        <div class="contact-links">
+            <a href="mailto:samar00khaled0@gmail.com">samar00khaled0@gmail.com</a>
+            <a href="https://www.linkedin.com/in/smar-5alid">LinkedIn</a>
+            <a href="https://github.com/Samar-Khalid">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Samar Khalid</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
